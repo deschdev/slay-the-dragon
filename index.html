@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+  <title>Rough RPG Demo</title>
+</head>
+<body>
+  <div id="game">
+    <div id="stats">
+      <span class="stat">XP: <strong><span id="experience-points-text">0</span></strong></span>
+      <span class="stat">Health: <strong><span id="health-text">100</span></strong></span>
+      <span class="stat">Gold: <strong><span id="gold-text">50</span></strong></span>
+    </div>
+    <div id="controls">
+      <button id="button-one">Go to store</button>
+      <button id="button-two">Go to cave</button>
+      <button id="button-three">Fight dragon</button>
+    </div>
+    <div id="monster-stats">
+      <span class="stat">Monster Name: <strong><span id="monster-name"></span></strong></span>
+      <span class="stat">Health: <strong><span id="monster-health"></span></strong></span>
+    </div>
+    <div id="main-game-text">
+      Greetings from Rough RPG. Your mission is to conquer the dragon obstructing the town's exit. Presently, you find yourself in the town square. Which direction would you like to venture? Navigate using the provided buttons.
+    </div>
+  </div>
+</body>
+</html>

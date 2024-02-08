@@ -1,0 +1,65 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00201E;
+  font-family: "Press Start 2P", "serif";
+}
+
+#main-game-text {
+  background-color: #E2CAA8;
+  color: #2A2A2A;
+  padding: 50px;
+  line-height: 1.8;
+}
+
+#game {
+  max-width: 1000px;
+  max-height: 900px;
+  margin: 30px auto 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+#controls,
+#stats {
+  padding: 10px;
+  border: 1px solid #0a0a23;
+  color: #0a0a23;
+}
+
+#monster-stats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #F2274C;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px;
+  font-family: "Press Start 2P", "serif";
+  color: #FFFFFF;
+  font-weight: 400;
+  border-radius: 5px;
+  background-color: #CC6D3B;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #40227A;
+  cursor: pointer;
+}
